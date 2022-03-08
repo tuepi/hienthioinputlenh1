@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1 id="ht"></h1>
+<input type="text" id="in">
+<button onclick="T()">click!</button>
+<button onclick="HT()">An vao day</button>
+<script>
+    function T() {
+        alert(document.getElementById("in").value)
+    }
+    function HT() {
+        document.getElementById("ht").innerHTML=document.getElementById("in").value;
+    }
+</script>
+</body>
+</html>
